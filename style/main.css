@@ -1,0 +1,812 @@
+/* ============================== FONT STYLE BEGIN ======================*/
+@font-face {
+  font-family: "Montserrat-medium";
+  src: url("./fonts/Montserrat-Medium.eot");
+  src: url("./fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("./fonts/Montserrat-Medium.woff") format("woff"),
+    url("./fonts/Montserrat-Medium.ttf") format("truetype"),
+    url("./fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-semibold";
+  src: url("./fonts/Montserrat-SemiBold.eot");
+  src: url("./fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("./fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("./fonts/Montserrat-SemiBold.ttf") format("truetype"),
+    url("./fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./fonts/Montserrat-Bold.eot");
+  src: url("./fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("./fonts/Montserrat-Bold.woff") format("woff"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("./fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-light";
+  src: url("./fonts/Montserrat-Light.eot");
+  src: url("./fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Montserrat-Light.woff2") format("woff2"),
+    url("./fonts/Montserrat-Light.woff") format("woff"),
+    url("./fonts/Montserrat-Light.ttf") format("truetype"),
+    url("./fonts/Montserrat-Light.svg#Montserrat-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("./fonts/Montserrat-Regular.eot");
+  src: url("./fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./fonts/Montserrat-Regular.woff") format("woff"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype"),
+    url("./fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Montserrat-medium";
+}
+
+p {
+  font-family: "Montserrat-medium";
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat-semibold";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-heading {
+  font-family: "Montserrat-Bold" !important;
+}
+
+/* ============================== HEADER STYLE BEGIN ======================*/
+.logo-container {
+  margin-top: -5rem !important;
+}
+.main-logo {
+  margin-top: 10% !important;
+  margin-bottom: 4%;
+}
+.site-heading {
+  margin-top: 1rem !important;
+  margin-bottom: 3rem !important;
+}
+.btn-outline-new-white:hover {
+  color: #ff6502 !important;
+  text-decoration: none;
+}
+.btn-info {
+  color: #fff;
+  background-color: #ff6400 !important;
+  border-color: #ff6502 !important;
+}
+/* .website-front-container
+{
+ 
+} */
+
+.custom-body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.46))
+    ),
+    url(../images/helping-images/pexel-images/bg-1-6.jpg);
+  background: linear-gradient(rgba(47, 23, 15, 0.65)),
+    url(../images/bg-home.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+}
+
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.7;
+  font-family: "Raleway";
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.site-heading .site-heading-lower {
+  font-size: 3.3rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #ff6400;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#mainNav {
+  background-color: transparent;
+  font-family: "Raleway";
+}
+
+#mainNav .navbar-brand {
+  color: #03dcc7;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #ff6502;
+  font-size: 16px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.95rem;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #ff6502;
+  }
+
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #ff6502;
+  }
+}
+
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  text-transform: uppercase;
+}
+
+.intro {
+  position: relative;
+}
+.services-icons-container {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
+
+  .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #0000008a;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(14, 28, 26, 0.59))
+    ),
+    url(../images/mc001.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 2.2rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid#ff6400;
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3rem;
+  }
+
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+
+  .product-item .product-item-description {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+}
+
+.list-hours {
+  font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 1px solid #03dcc7;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.list-hours .list-hours-item.today {
+  font-weight: bold;
+  color: #03dcc7;
+}
+
+@media (min-width: 992px) {
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+.address strong {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h4 {
+  font-size: 18px;
+}
+.footer h5 {
+  font-size: 15px;
+}
+body {
+  overflow-x: hidden;
+}
+.footer p {
+  font-size: 14px;
+}
+.text-primary {
+  color: #fff !important;
+}
+
+.bg-primary {
+  background-color: #ff6400 !important;
+}
+
+.custom-color {
+  color: #ff6400;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+  background-color: #ff6400;
+  border-color: #ff6400;
+}
+
+.btn-info.focus,
+.btn-info:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 100, 0, 0.43);
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #ff650259;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #ff6400;
+  border-color: #ff6400;
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+/*buttons on headeer*/
+.btn-outline-new-white {
+  color: #fff;
+  border-color: #ff6400;
+}
+
+/* --- Shuffiling images --- */
+
+.images .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+.shuffle img {
+  width: 100%;
+}
+.web-section {
+  margin-top: 7rem;
+}
+/* start of Services  section */
+.services {
+  padding-top: 5rem;
+}
+
+/* end services section */
+.process-content {
+  font-size: 15px;
+  text-align: left;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.background-div-container {
+  color: #fff;
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  background-size: cover !important;
+  border-radius: 5px;
+}
+
+/* .bg:hover {
+  background: linear-gradient(0deg, rgba(100, 126, 155, 0.86) 0%, rgba(54, 96, 184, 0) 16%),
+} */
+
+.discover > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.32) 16%
+    ),
+    url(../images/descover-service-img.jpg) top center;
+}
+
+.discover:hover > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.78) 16%
+    ),
+    url(../images/descover-service-img.jpg) top center;
+}
+
+.deploy > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.32) 16%
+    ),
+    url(../images/deploy-service-img.jpg) top center;
+}
+
+.deploy:hover > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.78) 16%
+    ),
+    url(../images/deploy-service-img.jpg) top center;
+}
+
+.develop > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.32) 16%
+    ),
+    url(../images/develop-service-img.jpg) top center;
+}
+
+.develop:hover > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.78) 16%
+    ),
+    url(../images/develop-service-img.jpg) top center;
+}
+
+.digital > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.32) 16%
+    ),
+    url(../images/design-service-img.jpg) top center;
+}
+
+.digital:hover > .background-div-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 100, 0, 0.85) 0%,
+      rgba(209, 91, 14, 0.78) 16%
+    ),
+    url(../images/design-service-img.jpg) top center;
+}
+
+.inner-text {
+  position: absolute;
+  top: 87%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.bg:hover .inner-text {
+  position: absolute;
+  top: calc(10% - 45px);
+  box-sizing: border-box;
+  color: #fff;
+  padding: 60px 0px;
+}
+
+/* ============================== SERVICES STYLE BEGIN ======================*/
+
+.services-icons-container img {
+  width: 100px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -moz-box-sizing: content-box !important;
+  -webkit-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+.services-icons-container img:hover {
+  font-size: 133px !important;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.services-icons-container h3 {
+  font-family: "Montserrat Medium" !important;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 0 !important;
+}
+@media (min-width: 992px) {
+  .services-icons-container .col-md-2 {
+    max-width: 20%;
+    flex: 0 0 20.666667%;
+    text-align: center;
+  }
+}
+a.btn-primary {
+  position: relative;
+  padding: 0.7rem 2rem;
+}
+a.btn-primary:after {
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  border: 2px solid #ff6400;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #00605e;
+  border-color: #00605e;
+}
+
+.strategy-section {
+  padding-bottom: 4rem;
+  background-color: #f6f6f6;
+  padding-top: 3rem;
+}
+.about-section {
+  margin-bottom: 0;
+  padding-top: 6rem;
+}
+.cta .view-more-projects {
+  padding: 20px;
+}
+
+.background-div-container h4 {
+  font-family: "Montserrat-medium";
+  padding-left: 10px;
+}
+
+.background-div-container ul {
+  padding-left: 20px;
+}
+
+.og-grid li > a,
+.og-grid li > a img {
+  width: 323px;
+}
+#portfolio-filter {
+  display: block;
+  width: 100%;
+}
+#elastic_grid_demo {
+  width: 100%;
+}
+
+/* start contact form section */
+#contact {
+  padding-top: 10rem;
+}
+.contact-section {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.76))
+    ),
+    url(../images/contact-bnr.jpg);
+  background: linear-gradient(rgba(47, 23, 15, 0.65)),
+    url(../images/contact-bnr.png);
+  color: #fff;
+  padding: 3rem 0px 4rem;
+  background-attachment: fixed;
+}
+
+.contact-section .title span {
+  color: #ff6502;
+  border-bottom: 2px solid;
+  border-radius: 2px;
+}
+
+.contact-section .footer-contact li label {
+  display: block;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-section .message {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+textarea,
+.td-clients .client-box,
+.td-work .filter-items .box-item,
+.td-services .serv-box,
+.td-header .td-header-warp {
+  background-color: #202737;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  padding: 10px 15px 10px 25px;
+  background-color: #d0d0d0;
+  border-radius: 8px;
+  border: 0px;
+  outline: 0;
+  display: block;
+  margin-bottom: 21px;
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+
+  line-height: 1.5;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+textarea#textarea {
+  width: 99%;
+  border-radius: 39px;
+  padding: 12px 15px 12px 25px;
+  background-color: #d0d0d0;
+  border-radius: 10px;
+  border: 0px;
+  outline: 0;
+  display: block;
+  margin-bottom: 21px;
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.color3 {
+  background: #03dcc7;
+  border-radius: 15px;
+}
+
+/* left center */
+/* .contact-section .footer-contact {
+ 
+} */
+
+.contact-section .footer-contact li a {
+  color: white;
+}
+
+.contact-section .footer-contact li {
+  list-style-type: none;
+  position: relative;
+  padding: 28px 0 0px 72px;
+  font-size: 14px;
+}
+
+.contact-section .footer-contact li a:hover {
+  color: #03dcc7;
+}
+
+.contact-section i.fa {
+  position: absolute;
+  top: 33px;
+  left: 20px;
+  width: 32px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.subscribe-container-footer .btn,
+.subscribe-container-footer input {
+  border-radius: 0;
+}
+
+.subscribe-container-footer .btn {
+  padding: 7px 20px;
+}
+.footer .col-md-2 i {
+  font-size: 25px;
+  padding-right: 8px;
+  color: #ff6502;
+}
+
+.view-more-projects {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.og-grid {
+  padding-bottom: 0;
+}
+
+#portfolio {
+  padding-top: 5rem;
+}
+
+.portfolio-container .container-fluid {
+  padding: 0;
+}
