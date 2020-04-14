@@ -810,3 +810,17 @@ textarea#textarea {
 .portfolio-container .container-fluid {
   padding: 0;
 }
+/* media query */
+@media (max-width: 767px) {
+.main-logo {
+    margin-top: 15% !important;
+    margin-bottom: 0%;
+    width: 350px;
+}
+  
+  .section-heading .section-heading-lower {
+    font-size: 2rem;
+}
+  
+  
+}
