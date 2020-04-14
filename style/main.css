@@ -981,6 +981,12 @@ textarea#textarea {
   #Process .bg {
     margin-bottom: 1rem;
 }
+  nav#porfolio-nav li {
+    display: inline-block !important;
+}
+  nav#porfolio-nav li {
+    width: 30%;}
+  
   
   
 }
