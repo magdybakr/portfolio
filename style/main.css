@@ -992,5 +992,16 @@ textarea#textarea {
     font-weight: normal !important;
     margin: 6px 3px !important
 }
+  button.btn.btn-primary.pl-0.pt-2.pm-2.pl-2 {
+    display: block;
+    margin: 0 auto 0 4.8rem;
+    width: 70%;
+}
+  input[type="text"] {
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: 6px auto;
+}
   
 }
