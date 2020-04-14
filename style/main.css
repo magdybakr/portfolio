@@ -236,7 +236,8 @@ p {
 .intro {
   position: relative;
 }
-.services-icons-container {
+.
+{
   margin-bottom: 4rem;
 }
 
@@ -561,7 +562,147 @@ body {
 
 /* ============================== SERVICES STYLE BEGIN ======================*/
 
-.services-icons-container img {
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
   width: 100px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -815,11 +956,30 @@ textarea#textarea {
 .main-logo {
     margin-top: 15% !important;
     margin-bottom: 0%;
-    width: 350px;
+    width: 350px !important;
 }
   
   .section-heading .section-heading-lower {
-    font-size: 2rem;
+    font-size: 1.4rem;
+}
+  img.wow.zoomIn {
+    display: block;
+    margin: 0 auto;
+}
+  .services-icons-container h3 {
+    font-size: 18px !important;
+}
+  .cta-inner.text-center {
+    padding: 0.9rem;
+}
+  .cta-inner p {
+    text-align: justify;
+    word-spacing: .3px !important;
+    word-break: break-word;
+}
+  
+  #Process .bg {
+    margin-bottom: 1rem;
 }
   
   
