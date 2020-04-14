@@ -987,6 +987,10 @@ textarea#textarea {
   nav#porfolio-nav li {
     width: 30%;}
   
-  
+  .wagwep-container ul#portfolio-filter a {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    margin: 6px 3px !important
+}
   
 }
