@@ -1015,8 +1015,9 @@ textarea#textarea {
 }
   
   .social-icons .col-md-2 {
-    display: inline-block;
-    width: 25%;
+    display: inline-block !important;
+    width: 19%;
+    margin: 8px !important;
 }
   
 }
