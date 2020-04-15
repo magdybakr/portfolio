@@ -997,11 +997,17 @@ textarea#textarea {
     margin: 0 auto 0 4.8rem;
     width: 70%;
 }
-  input[type="text"] {
+ .subscribe-container-footer input[type="text"] {
     width: 70%;
     display: block;
     text-align: center;
     margin: 6px auto;
+}
+  
+  .footer .col-md-2 {
+    display: inline-block !important;
+    width: 20%;
+    margin: 10px;
 }
   
 }
