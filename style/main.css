@@ -953,10 +953,28 @@ textarea#textarea {
 }
 /* media query */
 @media (max-width: 767px) {
+  
+  body {
+    width: 106vw !important;
+}
+  
 .main-logo {
-    margin-top: 15% !important;
-    margin-bottom: 0%;
-    width: 350px !important;
+    margin-top: 21% !important;
+    margin-bottom: 0% !important;
+    width: 100% !important;
+}
+  
+  .intro img.intro-img.img-fluid.mb-3.mb-lg-0.rounded.wow.slideInRight {
+    visibility: hidden !important;
+    display: none !important;
+}
+  
+  .web-section {
+    margin-top: 2rem !important;
+}
+  
+  .footer h4.text-left.mt-3 {
+    font-size: 17px;
 }
   
   .section-heading .section-heading-lower {
@@ -992,16 +1010,17 @@ textarea#textarea {
     font-weight: normal !important;
     margin: 6px 3px !important
 }
-  button.btn.btn-primary.pl-0.pt-2.pm-2.pl-2 {
+ button.btn.btn-primary.pl-0.pt-2.pm-2.pl-2 {
     display: block;
-    margin: 0 auto 0 4.8rem;
-    width: 70%;
+    margin: 0rem 1rem 1rem 1.5em;
+    width: 90%;
 }
+  
  .subscribe-container-footer input[type="text"] {
-    width: 75%;
+    width: 90%;
     display: block;
     text-align: center;
-    margin: 6px auto;
+    margin: 1rem 1rem 1rem .5em;
 }
   
   .footer .col-md-2 {
@@ -1010,14 +1029,13 @@ textarea#textarea {
     margin: 10px;
 }
   .social-icons {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
-  
   .social-icons .col-md-2 {
     display: inline-block !important;
     width: 19%;
-    margin: 8px !important;
+    margin: 7px !important;
 }
   
 }
