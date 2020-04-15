@@ -955,7 +955,7 @@ textarea#textarea {
 @media (max-width: 767px) {
   
   body {
-    width: 106vw !important;
+    width: 100vw !important;
 }
   
 .main-logo {
@@ -968,6 +968,14 @@ textarea#textarea {
     visibility: hidden !important;
     display: none !important;
 }
+  
+  a.btn-primary {
+    position: relative;
+    padding: 0.7rem 4px !important;
+    font-size: .9rem !important;
+}
+  
+  
   
   .web-section {
     margin-top: 2rem !important;
