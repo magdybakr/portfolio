@@ -59,6 +59,27 @@
   font-style: normal;
 }
 
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: #000;
+}
+
+#inner {
+    background-image: url(https://loading.io/asset/366452);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
 body {
   font-family: "Montserrat-medium";
 }
