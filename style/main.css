@@ -59,7 +59,7 @@
   font-style: normal;
 }
 
-#preloader {
+/* #preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -78,7 +78,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50% -50%);
-}
+} */
 
 body {
   font-family: "Montserrat-medium";
