@@ -917,7 +917,7 @@ textarea#textarea {
  
 } */
 
-.contact-section .footer-contact li a {
+.contact-section .footer-contact li a, .footer a {
   color: white;
 }
 
