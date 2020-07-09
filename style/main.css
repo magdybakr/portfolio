@@ -449,6 +449,15 @@ body {
 .services {
     padding-top: 10rem;
 }
+
+.services-icons-container img {
+    filter: grayscale(1);
+}
+.services-icons-container img:hover {
+    cursor: pointer;
+    filter: saturate(4.5);
+}
+
 /* end services section */
 .process-content {
   font-size: 15px;
