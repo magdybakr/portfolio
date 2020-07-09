@@ -438,9 +438,8 @@ body {
 }
 /* start of Services  section */
 .services {
-  padding-top: 5rem;
+    padding-top: 10rem;
 }
-
 /* end services section */
 .process-content {
   font-size: 15px;
@@ -553,144 +552,6 @@ body {
 
 /* ============================== SERVICES STYLE BEGIN ======================*/
 
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 img {
@@ -755,8 +616,8 @@ a.btn-primary:after {
   padding-top: 3rem;
 }
 .about-section {
-  margin-bottom: 0;
-  padding-top: 6rem;
+    margin-bottom: 0;
+    padding-top: 10rem;
 }
 .cta .view-more-projects {
   padding: 20px;
