@@ -25,7 +25,7 @@ $(function(){
     var url = window.location.href; 
 
     // passes on every "a" tag 
-    $("#mainNav a").each(function() {
+    $("#mainNav a").click.each(function() {
             // checks if its the same on the address bar
         if(url == (this.href)) { 
             $(this).closest("li").addClass("live-section");
