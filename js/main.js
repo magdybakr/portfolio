@@ -20,15 +20,17 @@ $(window).scroll(function() {
   }
 });
 
-$(function(){
+function activeItem(){
     // this will get the full URL at the address bar
     var url = window.location.href; 
 
     // passes on every "a" tag 
-    $("#mainNav a").each.click(function() {
+    $("#mainNav a").each(function() {
             // checks if its the same on the address bar
         if(url == (this.href)) { 
             $(this).closest("li").addClass("live-section");
         }
     });
-});
+};
+
+ $("#mainNav a").click("activeItem");
