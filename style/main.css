@@ -228,10 +228,12 @@ p {
 .intro {
   position: relative;
 }
-.
+
+/* .
 {
   margin-bottom: 4rem;
-}
+} */
+
 
 @media (min-width: 992px) {
   .intro .intro-img {
@@ -555,7 +557,7 @@ body {
 
 
 
-img {
+.img {
   width: 100px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
