@@ -183,6 +183,10 @@ p {
 #mainNav .navbar-brand {
   color: #03dcc7;
 }
+  /* color the active section on the menu bar   */
+
+#mainNav .active a{ color: #fff; }
+
 
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #fff;
