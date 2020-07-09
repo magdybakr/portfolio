@@ -8,7 +8,7 @@ $(window).on('load', function() {
     // start navbar shuffle
 
 
-
+ 
 });
 
 $(window).scroll(function() {
