@@ -59,26 +59,7 @@
   font-style: normal;
 }
 
-/* #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    background: #040404fa;
-}
 
-#inner {
-    background-image: url(../images/logo/7Cff.gif);
-    background-repeat: no-repeat;
-    width: 650px;
-    height: 650px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-} */
 
 body {
   font-family: "Montserrat-medium";
@@ -121,27 +102,14 @@ h6,
   background-color: #ff6400 !important;
   border-color: #ff6502 !important;
 }
-/* .website-front-container
-{
- 
-} */
 
 
 .custom-body {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.47))
-    ),
-    url(../images/main-cover.jpg);
-  background: linear-gradient(rgba(47, 23, 15, 0.65)),
-    url(../images/bg-home.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.62)) ), url(../images/main-cover.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
-
 h1,
 h2,
 h3,
