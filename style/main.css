@@ -614,9 +614,9 @@ a.btn-primary:after {
 }
 
 .strategy-section {
-  padding-bottom: 4rem;
-  background-color: #f6f6f6;
-  padding-top: 3rem;
+    padding-bottom: 4rem;
+    background-color: #f6f6f6;
+    padding-top: 6rem;
 }
 .about-section {
     margin-bottom: 0;
