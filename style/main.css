@@ -1145,7 +1145,7 @@ textarea#textarea {
 .prev, .next {
     width: 4rem;
     cursor: pointer;
-    opacity: 0.2;
+    opacity: 0.8;
     transition: all 0.3s ease;
 }
 @media only screen and (max-width: 650px) {
@@ -1157,15 +1157,18 @@ textarea#textarea {
     opacity: 1;
 }
 .prev {
-    top: 50%;
-    left: 2%;
-    transform: translateY(-50%);
+    bottom: 44%;
+    left: -4%;
+    transform: translateY(-250%);
+    position: relative;
 }
 .next {
-    top: 50%;
-    right: 2%;
-    transform: translateY(-50%);
+    bottom: 44%;
+    left: 85%;
+    transform: translateY(-250%);
+    position: relative;
 }
+
 .trail {
     bottom: 5%;
     left: 50%;
