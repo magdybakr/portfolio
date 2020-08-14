@@ -1017,17 +1017,18 @@ textarea#textarea {
    }
 }
 .slider .box .details h1 {
-    font-size: 4rem;
-    font-weight: 500;
+    font-size: 2.2em;
+    font-weight: 800;
     margin-bottom: 0.5rem;
+    color: #fff;
 }
 .slider .box .details p {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
-    margin-bottom: 3rem;
-    margin-right: 6rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
 }
 @media only screen and (max-width: 800px) {
     .slider .box .details p {
