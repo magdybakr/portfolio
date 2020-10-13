@@ -297,130 +297,15 @@
             <span class="section-heading-lower ">MY PROJECTS
           </h2>
 		  </div>
-                <!-- the old div for elastic grid  <div id="elastic_grid_demo"></div> -->
+<!-- the old div for elastic grid -->
+	       
+	         <div id="elastic_grid_demo"></div>
 	       
 <!-- 	       new grid gallery for projects  -->
 	       <!-- 	       new grid gallery for projects  -->
 	       
 	       
-	       <div class="container"> 
-            <div class="slider">
-
-                <div class="box1 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>Smouha Academy</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.
-                        </p>
-                        <button>Demo</button>
-                    </div>
-
-                    <div class=" cover"><div class="inner">
-                        <img src="images/s-cover.png" alt="">
-                    </div></div>
-                </div>
-                                
-                
-                <div class="box2 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>Sama Group</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.
-                        </p>
-                        <button>Demo</button>
-                    </div>
-
-                    <div class=" cover"><div class="inner">
-                        <img src="images/3.png" alt="">
-                    </div></div>
-                </div>
-                                
-                <div class="box3 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>New Hosters</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.
-                        </p>
-                        <button>Demo</button>
-                    </div>
-
-                    <div class=" cover"><div class="inner">
-                        <img src="images/6.png" alt="">
-                    </div></div>
-                </div>
-                                
-                <div class="box4 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>Elrashidi Elbaghbghan</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.
-                        </p>
-                        <button>Demo</button>
-                    </div>
-
-                    <div class=" cover"><div class="inner">
-                        <img src="images/5.png" alt="">
-                    </div></div>
-                </div>
-                                
-                <div class="box5 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>Me Vac</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.eget. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget.
-                        </p>
-                        <button>Demo</button>
-                    </div>
-
-                    <div class=" cover"><div class="inner">
-                        <img src="images/4.png" alt="">
-                    </div></div>
-                </div>
-                                
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
-            <div class="trail">
-                    <div class="box1 active">1</div>
-                    <div class="box2">2</div>
-                    <div class="box3">3</div>
-                    <div class="box4">4</div>
-                    <div class="box5">5</div>
-            </div>
-		       
-		         <div class="view-more-projects mt-3"><a class=" btn btn-primary px-5" href="#"> VIEW MORE ! </a></div>
-     </div>
-        </div>   
-        </div>
-      
-
-
+	       
   </section> 
 
 
@@ -586,6 +471,135 @@
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
        <script src="js/main.js"></script>
+	      
+<!-- 	  start portfolio      -->
+	      
+	      <script>
+		   
+$(function(){
+    $("#elastic_grid_demo").elastic_grid({
+        'showAllText' : 'All',
+        'filterEffect': 'popup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+        'hoverDirection': true,
+        'hoverDelay': 0,
+
+        'hoverInverse': false,
+        'expandingSpeed': 500,
+        'expandingHeight': 500,
+        'items' :
+        [
+            
+            {
+                'title'         : 'Smouha Academy',
+                'description'   : 'Smouha Academy for training and teaching mobile, computer, shower and all electronic devices maintenance, the first academy of its kind in the Middle East with ministerial license number 62-73.',
+                'thumbnail'     : ['images/smouha/cover.jpg', 'images/smouha/smouha-2.png', 'images/smouha/smouha-2.png', 'images/smouha/smouha-2.png'],
+                'large'         : ['images/smouha/cover.jpg', 'images/smouha/smouha-2.png', 'images/large/nadix.jpg', 'images/large/Arab-art.jpg'],
+                'img_title'     : ['jquery elastic grid 6 ', 'jquery elastic grid 7 ', 'jquery elastic grid 8', 'jquery elastic grid 9', 'jquery elastic grid 9'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : 'http://smouhaacademy.com/', 'new_window' : true },
+                ],
+                'tags'          : ['ACADEMY']
+            },
+            {
+                'title'         : 'Joe Farhat',
+                'description'   : 'Consolidated sound Engineer based in Dubai, UAE. I’ve been recording sound for over Eleven years and Refining production and post production techniques to Offer a PRO service for a smooth and reliable sound Acquiring / mixing / creating process in Location Sound Recording and Sound Design.',
+                'thumbnail'     : ['images/joe/cover.png','images/joe/joe1.png', 'images/joe/joe2.png', 'images/joe/joe3.png'],
+                'large'         : ['images/joe/cover.png','images/smouha/cover.jpg', 'images/large/9.jpg', 'images/large/masr.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : 'http://joefarhat.net/', 'new_window' : true },
+                ],
+                'tags'          : ['PERSONAL']
+            },
+            {
+                'title'         : 'The third Project',
+                'description'   : 'The third Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/nadix.jpg', 'images/small/do.jpg', 'images/small/eddukan.jpg', 'images/small/do.jpg', 'images/small/sh.jpg'],
+                'large'         : ['images/large/nadix.jpg', 'images/large/sh.jpg', 'images/large/14.jpg', 'images/large/chou.jpg', 'images/large/nadix.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : '#', 'new_window' : true },
+                    
+                ],
+                'tags'          : ['AGRICULTURE ']
+            },
+            {
+                'title'         : 'The Fourth Project',
+                'description'   : 'The Fourth Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/halel-w-etamn-profile.jpg', 'images/small/do.jpg', 'images/small/chou.jpg', 'images/small/do.jpg'],
+                'large'         : ['images/large/halel-w-etamn-profile.jpg', 'images/large/sh.jpg', 'images/large/shou.jpg', 'images/large/halel-w-etamn-profile.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : '#', 'new_window' : true },
+                  
+                ],
+                'tags'          : ['SPA']
+            },
+            {
+                'title'         : 'The Fifth Project',
+                'description'   : 'The Fifth Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/sh.jpg','images/small/do.jpg', 'images/small/sh.jpg', 'images/small/chou.jpg'],
+                'large'         : ['images/large/sh.jpg','images/large/masr.jpg', 'images/large/chou.jpg', 'images/large/masr.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' :'#', 'new_window' : true },
+                    
+                ],
+                'tags'          : ['FURNITURE']
+            },
+            {
+                'title'         : 'The sixth Project',
+                'description'   : 'The sixth Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/toyota2.jpg','images/small/sh.jpg', 'images/small/do.jpg', 'images/small/sh.jpg'],
+                'large'         : ['images/large/toyota2.jpg','images/large/sh.jpg', 'images/large/chou.jpg', 'images/large/do.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : '#', 'new_window' : true },
+                    
+                ],
+                'tags'          : ['REAL ESTATES']
+            },
+            {
+                'title'         : 'The Seventh Project',
+                'description'   : 'The Seventh Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/halaby 2.jpg', 'images/small/sh.jpg', 'images/small/masr.jpg', 'images/small/do.jpg', 'images/small/masr.jpg'],
+                'large'         : ['images/large/halaby 2.jpg', 'images/large/sh.jpg', 'images/large/do.jpg', 'images/large/chou.jpg', 'images/large/masr.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : '#', 'new_window' : true },
+                    
+                ],
+                'tags'          : ['VETERINARY']
+            },
+            {
+                'title'         : 'The Last Project',
+                'description'   : 'The Last Project bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage.',
+                'thumbnail'     : ['images/small/masr.jpg', 'images/small/masr.jpg', 'images/small/do.jpg', 'images/small/sh.jpg'],
+                'large'         : ['images/large/masr.jpg', 'images/large/do.jpg', 'images/large/sh.jpg', 'images/large/chou.jpg'],
+                'img_title'     : ['jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid', 'jquery elastic grid'],
+                'button_list'   :
+                [
+                    { 'title':'Demo', 'url' : '#', 'new_window' : true },
+                    
+                ],
+                'tags'          : ['COMPANIES']
+            },
+            
+
+        ]
+    });
+});
+
+		      
+	      </script>
+		      
 
 </body>
 
