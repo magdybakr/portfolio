@@ -717,43 +717,37 @@ textarea,
   background-color: #202737;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="date"],
-input[type="time"] {
-  padding: 10px 15px 10px 25px;
-  background-color: #d0d0d0;
-  border-radius: 8px;
-  border: 0px;
-  outline: 0;
-  display: block;
-  margin-bottom: 21px;
-  font-size: 14px;
-  width: 100%;
-  white-space: nowrap;
-
-  line-height: 1.5;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="time"] {
+    padding: 10px 15px 10px 25px;
+    background-color: #d0d0d0;
+    border-radius: 8px;
+    border: 0px;
+    outline: 0;
+    display: block;
+    margin-bottom: 21px;
+    font-size: 14px;
+    width: 95%;
+    white-space: nowrap;
+    line-height: 1.5;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 textarea#textarea {
-  width: 99%;
-  border-radius: 39px;
-  padding: 12px 15px 12px 25px;
-  background-color: #d0d0d0;
-  border-radius: 10px;
-  border: 0px;
-  outline: 0;
-  display: block;
-  margin-bottom: 21px;
-  font-size: 14px;
-  width: 100%;
-  white-space: nowrap;
-
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+    width: 99%;
+    border-radius: 39px;
+    padding: 12px 15px 12px 25px;
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    border: 0px;
+    outline: 0;
+    display: block;
+    margin-bottom: 21px;
+    font-size: 14px;
+    width: 98%;
+    white-space: nowrap;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .color3 {
